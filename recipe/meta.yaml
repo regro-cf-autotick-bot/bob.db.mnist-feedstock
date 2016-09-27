@@ -1,4 +1,4 @@
-{% set version = "2.0.4" %}
+{% set version = "2.0.6" %}
 
 package:
   name: bob.db.mnist
@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.db.mnist-{{ version }}.zip
-  md5: d0da8561b48c24d5cb11aa882156f14a
+  md5: 59c84c2cbed3c370f5abd49390e17b13
   url: https://pypi.io/packages/source/b/bob.db.mnist/bob.db.mnist-{{ version }}.zip
 
 build:
@@ -37,7 +37,7 @@ test:
     - nose
 
 about:
-  home: https://pypi.python.org/pypi/bob.db.mnist
+  home: https://www.idiap.ch/software/bob/
   license: GNU General Public License v3 (GPLv3)
   summary: MNIST Database Access API for Bob
 
