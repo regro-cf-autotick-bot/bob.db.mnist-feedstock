@@ -1,4 +1,4 @@
-{% set version = "2.0.6" %}
+{% set version = "2.2.3" %}
 
 package:
   name: bob.db.mnist
@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.db.mnist-{{ version }}.zip
-  md5: 59c84c2cbed3c370f5abd49390e17b13
+  md5: 1545e94944a473318f3285c713d5e5b4
   url: https://pypi.io/packages/source/b/bob.db.mnist/bob.db.mnist-{{ version }}.zip
 
 build:
